@@ -1,0 +1,142 @@
+CRITICAL - 2023-03-29 01:22:38 --> Undefined index: id
+#0 C:\xampp\htdocs\spmi-unifa\app\Controllers\Front.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Front->blogdetail()
+#2 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+#3 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spmi-unifa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-29 01:26:12 --> Undefined index: id
+#0 C:\xampp\htdocs\spmi-unifa\app\Controllers\Front.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Front->blogdetail()
+#2 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+#3 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spmi-unifa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-29 01:26:31 --> Undefined index: id
+#0 C:\xampp\htdocs\spmi-unifa\app\Controllers\Front.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Front->blogdetail()
+#2 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+#3 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spmi-unifa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-29 01:27:45 --> Undefined index: id
+#0 C:\xampp\htdocs\spmi-unifa\app\Controllers\Front.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Front->blogdetail('$i')
+#2 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+#3 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\spmi-unifa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-03-29 01:28:25 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\spmi-unifa\app\Views\Front\detail-blog.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Front/detail-bl...', Array, true)
+#4 C:\xampp\htdocs\spmi-unifa\app\Controllers\Front.php(92): view('Front/detail-bl...', Array)
+#5 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Front->blogdetail('')
+#6 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+#7 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spmi-unifa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-29 02:15:52 --> Cannot redeclare App\Controllers\Front::profil_tendik()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-29 02:16:00 --> Cannot redeclare App\Controllers\Front::profil_tendik()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2023-03-29 02:24:54 --> Invalid file: tugas-pokok.php
+#0 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tugas-pokok.php')
+#1 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('tugas-pokok', Array, true)
+#2 C:\xampp\htdocs\spmi-unifa\app\Controllers\Front.php(89): view('tugas-pokok', Array)
+#3 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Front->tugas_pokok()
+#4 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+#5 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spmi-unifa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-03-29 02:26:48 --> Invalid file: profil-tendik.php
+#0 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profil-tendik.p...')
+#1 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('profil-tendik', Array, true)
+#2 C:\xampp\htdocs\spmi-unifa\app\Controllers\Front.php(71): view('profil-tendik', Array)
+#3 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Front->profil_tendik()
+#4 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+#5 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spmi-unifa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-03-29 02:27:25 --> Invalid file: profil-tendik.php
+#0 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profil-tendik.p...')
+#1 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('profil-tendik', Array, true)
+#2 C:\xampp\htdocs\spmi-unifa\app\Controllers\Front.php(71): view('profil-tendik', Array)
+#3 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Front->profil_tendik()
+#4 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+#5 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spmi-unifa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-03-29 02:27:26 --> Invalid file: profil-tendik.php
+#0 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profil-tendik.p...')
+#1 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('profil-tendik', Array, true)
+#2 C:\xampp\htdocs\spmi-unifa\app\Controllers\Front.php(71): view('profil-tendik', Array)
+#3 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Front->profil_tendik()
+#4 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+#5 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spmi-unifa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-03-29 02:27:26 --> Invalid file: profil-tendik.php
+#0 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profil-tendik.p...')
+#1 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('profil-tendik', Array, true)
+#2 C:\xampp\htdocs\spmi-unifa\app\Controllers\Front.php(71): view('profil-tendik', Array)
+#3 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Front->profil_tendik()
+#4 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+#5 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spmi-unifa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-03-29 03:23:06 --> Invalid file: Front/profil-pejabat.php
+#0 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Front/profil-pe...')
+#1 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Front/profil-pe...', Array, true)
+#2 C:\xampp\htdocs\spmi-unifa\app\Controllers\Front.php(61): view('Front/profil-pe...', Array)
+#3 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Front->profil_pejabat()
+#4 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+#5 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spmi-unifa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-03-29 03:25:24 --> Undefined variable: judul
+#0 C:\xampp\htdocs\spmi-unifa\app\Views\Front\profil-pejabat.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Front/profil-pe...', Array, true)
+#4 C:\xampp\htdocs\spmi-unifa\app\Controllers\Front.php(61): view('Front/profil-pe...', Array)
+#5 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Front->profil_pejabat()
+#6 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+#7 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spmi-unifa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-03-29 05:53:35 --> Invalid file: Front/visi-dan-misi.php
+#0 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Front/visi-dan-...')
+#1 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Front/visi-dan-...', Array, true)
+#2 C:\xampp\htdocs\spmi-unifa\app\Controllers\Front.php(107): view('Front/visi-dan-...', Array)
+#3 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Front->visi_dan_misi()
+#4 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+#5 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spmi-unifa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-03-29 05:54:05 --> Invalid file: Front/visi-dan-misi.php
+#0 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Front/visi-dan-...')
+#1 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Front/visi-dan-...', Array, true)
+#2 C:\xampp\htdocs\spmi-unifa\app\Controllers\Front.php(107): view('Front/visi-dan-...', Array)
+#3 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Front->visi_dan_misi()
+#4 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+#5 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spmi-unifa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

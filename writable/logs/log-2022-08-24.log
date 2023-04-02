@@ -1,0 +1,4 @@
+CRITICAL - 2022-08-24 14:19:08 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\spmi-unifa\spark(44): require('C:\\xampp\\htdocs...')
+#2 {main}

@@ -1,0 +1,22 @@
+CRITICAL - 2023-04-02 14:20:37 --> DirectoryIterator::__construct(/path/to/images,/path/to/images): The system cannot find the path specified. (code: 3)
+#0 C:\xampp\htdocs\spmi-unifa\app\Views\Front\readfolder.php(2): DirectoryIterator->__construct('/path/to/images')
+#1 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Front/readfolde...', Array, true)
+#4 C:\xampp\htdocs\spmi-unifa\app\Controllers\Front.php(135): view('Front/readfolde...', Array)
+#5 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Front->readfolder()
+#6 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+#7 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\spmi-unifa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2023-04-02 15:13:32 --> Invalid file: Front/renstra.php
+#0 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Front/renstra.p...')
+#1 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render('Front/renstra', Array, true)
+#2 C:\xampp\htdocs\spmi-unifa\app\Controllers\Front.php(173): view('Front/renstra', Array)
+#3 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Front->renstra()
+#4 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Front))
+#5 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\spmi-unifa\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\spmi-unifa\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

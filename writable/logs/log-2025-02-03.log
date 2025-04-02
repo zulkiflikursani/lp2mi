@@ -1,0 +1,154 @@
+CRITICAL - 2025-02-03 22:14:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/lp2mi.unifa.ac.id/app/Controllers/Front.php(230): CodeIgniter\Model->__call()
+#4 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Front->blogdetail()
+#5 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/lp2mi.unifa.ac.id/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-02-03 22:14:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/lp2mi.unifa.ac.id/app/Controllers/Front.php(230): CodeIgniter\Model->__call()
+#4 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Front->blogdetail()
+#5 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/lp2mi.unifa.ac.id/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-02-03 22:14:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/lp2mi.unifa.ac.id/app/Controllers/Front.php(230): CodeIgniter\Model->__call()
+#4 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Front->blogdetail()
+#5 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/lp2mi.unifa.ac.id/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-02-03 22:14:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/lp2mi.unifa.ac.id/app/Controllers/Front.php(230): CodeIgniter\Model->__call()
+#4 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Front->blogdetail()
+#5 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/lp2mi.unifa.ac.id/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-02-03 22:14:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/lp2mi.unifa.ac.id/app/Controllers/Front.php(230): CodeIgniter\Model->__call()
+#4 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Front->blogdetail()
+#5 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/lp2mi.unifa.ac.id/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-02-03 22:14:18 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/lp2mi.unifa.ac.id/app/Controllers/Front.php(230): CodeIgniter\Model->__call()
+#4 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Front->blogdetail()
+#5 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/lp2mi.unifa.ac.id/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-02-03 22:14:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/lp2mi.unifa.ac.id/app/Controllers/Front.php(230): CodeIgniter\Model->__call()
+#4 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Front->blogdetail()
+#5 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/lp2mi.unifa.ac.id/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-02-03 22:14:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/lp2mi.unifa.ac.id/app/Controllers/Front.php(230): CodeIgniter\Model->__call()
+#4 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Front->blogdetail()
+#5 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/lp2mi.unifa.ac.id/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-02-03 22:14:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/lp2mi.unifa.ac.id/app/Controllers/Front.php(230): CodeIgniter\Model->__call()
+#4 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Front->blogdetail()
+#5 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/lp2mi.unifa.ac.id/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-02-03 22:14:25 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/lp2mi.unifa.ac.id/app/Controllers/Front.php(230): CodeIgniter\Model->__call()
+#4 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Front->blogdetail()
+#5 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/lp2mi.unifa.ac.id/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-02-03 22:14:29 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/lp2mi.unifa.ac.id/app/Controllers/Front.php(230): CodeIgniter\Model->__call()
+#4 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Front->blogdetail()
+#5 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/lp2mi.unifa.ac.id/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-02-03 22:14:30 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/lp2mi.unifa.ac.id/app/Controllers/Front.php(230): CodeIgniter\Model->__call()
+#4 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Front->blogdetail()
+#5 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/lp2mi.unifa.ac.id/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-02-03 22:14:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/lp2mi.unifa.ac.id/app/Controllers/Front.php(230): CodeIgniter\Model->__call()
+#4 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Front->blogdetail()
+#5 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/lp2mi.unifa.ac.id/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2025-02-03 22:14:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 /www/wwwroot/lp2mi.unifa.ac.id/app/Controllers/Front.php(230): CodeIgniter\Model->__call()
+#4 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Front->blogdetail()
+#5 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /www/wwwroot/lp2mi.unifa.ac.id/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /www/wwwroot/lp2mi.unifa.ac.id/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}

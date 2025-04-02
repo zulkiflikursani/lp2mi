@@ -1,7 +1,7 @@
 <style>
-    .font-menu {
-        font-size: 11px;
-    }
+.font-menu {
+    font-size: 11px;
+}
 </style>
 <header id="page-topbar">
     <div class="navbar-header">
@@ -27,7 +27,8 @@
                 </a>
             </div>
 
-            <button type="button" class="btn btn-sm px-3 font-size-16 d-lg-none header-item waves-effect waves-light" data-bs-toggle="collapse" data-bs-target="#topnav-menu-content">
+            <button type="button" class="btn btn-sm px-3 font-size-16 d-lg-none header-item waves-effect waves-light"
+                data-bs-toggle="collapse" data-bs-target="#topnav-menu-content">
                 <i class="fa fa-fw fa-bars"></i>
             </button>
 
@@ -42,7 +43,8 @@
 
 
             <div class="dropdown dropdown-mega d-none d-lg-block ms-2">
-                <button type="button" class="btn header-item waves-effect" data-bs-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
+                <button type="button" class="btn header-item waves-effect" data-bs-toggle="dropdown"
+                    aria-haspopup="false" aria-expanded="false">
                     <!-- <span key="t-megamenu"><?= lang('Files.Mega Menu') ?></span> -->
                     <!-- <i class="mdi mdi-chevron-down"></i>  -->
                 </button>
@@ -53,17 +55,21 @@
         <div class="d-flex">
 
             <div class="dropdown d-inline-block d-lg-none ms-2">
-                <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-search-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-search-dropdown"
+                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="mdi mdi-magnify"></i>
                 </button>
-                <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0" aria-labelledby="page-header-search-dropdown">
+                <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
+                    aria-labelledby="page-header-search-dropdown">
 
                     <form class="p-3">
                         <div class="form-group m-0">
                             <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Ssearch ..." aria-label="Recipient's username">
+                                <input type="text" class="form-control" placeholder="Ssearch ..."
+                                    aria-label="Recipient's username">
                                 <div class="input-group-append">
-                                    <button class="btn btn-primary" type="submit"><i class="mdi mdi-magnify"></i></button>
+                                    <button class="btn btn-primary" type="submit"><i
+                                            class="mdi mdi-magnify"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -264,8 +270,10 @@
                 <ul class="navbar-nav">
 
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle arrow-none" href="<?= base_url() ?>" id="topnav-dashboard" role="button">
-                            <i class="bx bx-home-circle me-2"></i><span key="t-dashboards" class="font-menu"><?= lang('Files.Dashboards') ?></span>
+                        <a class="nav-link dropdown-toggle arrow-none" href="<?= base_url() ?>" id="topnav-dashboard"
+                            role="button">
+                            <i class="bx bx-home-circle me-2"></i><span key="t-dashboards"
+                                class="font-menu"><?= lang('Files.Dashboards') ?></span>
                             <div class="arrow-down"></div>
                         </a>
 
@@ -336,85 +344,122 @@
                     </li> -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-pages" role="button">
-                            <i class="bx bx-customize me-2"></i><span class="font-menu" key="t-apps"><?= lang('AMI') ?></span>
+                            <i class="bx bx-customize me-2"></i><span class="font-menu"
+                                key="t-apps"><?= lang('AMI') ?></span>
                             <div class="arrow-down"></div>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="topnav-pages">
 
-                            <a href="edom" class="dropdown-item" key="t-chat"><?= lang('Evaluasi Dosen') ?></a>
-                            <a href="lap-ami" class="dropdown-item" key="t-chat"><?= lang('Laporan AMI') ?></a>
-                            <a href="tindak-kerja-ami" class="dropdown-item" key="t-chat"><?= lang('Tindak Kerja AMI') ?></a>
-                            <a href="tindak-kerja-ami" class="dropdown-item" key="t-chat"><?= lang('Umpan Balik AMI') ?></a>
+                            <a href="https://siska.unifa.ac.id/edom/index.php" target='_blank' class="dropdown-item" key="t-chat"><?= lang('Evaluasi Dosen') ?></a>
+                            <a href="https://drive.google.com/drive/folders/1exc38a6QtQP-xOLr4v7N7-xH8P_RN-Zo?usp=sharing"
+                                target="_blank" class="dropdown-item" key="t-chat"><?= lang('Formulir AMI') ?></a>
+                            <a href="https://drive.google.com/drive/folders/1a9rFEIoTWCb8_Wxcydh26O9_yh6DAtRL?usp=sharing"
+                                target="_blank" class="dropdown-item" key="t-chat"><?= lang('Laporan AMI') ?></a>
+                            <a href="tindak-kerja-ami" class="dropdown-item"
+                                key="t-chat"><?= lang('Tindak Kerja AMI') ?></a>
+                            <a href="tindak-kerja-ami" class="dropdown-item"
+                                key="t-chat"><?= lang('Umpan Balik AMI') ?></a>
 
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-pages" role="button">
-                            <i class="bx bx-customize me-2"></i><span class="font-menu" key="t-apps"><?= lang('Peraturan') ?></span>
+                            <i class="bx bx-customize me-2"></i><span class="font-menu"
+                                key="t-apps"><?= lang('Peraturan') ?></span>
                             <div class="arrow-down"></div>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="topnav-pages">
 
                             <a href="peraturan-yayasan" class="dropdown-item" key="t-chat"><?= lang('YAYASAN') ?></a>
-                            <a href="peraturan-universitas" class="dropdown-item" key="t-chat"><?= lang('UNIVERSITAS') ?></a>
+                            <a href="peraturan-universitas" class="dropdown-item"
+                                key="t-chat"><?= lang('UNIVERSITAS') ?></a>
                             <a href="peraturan-rektor" class="dropdown-item" key="t-chat"><?= lang('REKTOR') ?></a>
+                             <a href="peraturan-menteri" class="dropdown-item" key="t-chat"><?= lang('PERATURAN MENTERI') ?></a>
 
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-pages" role="button">
-                            <i class="bx bx-customize me-2"></i><span class="font-menu" key="t-apps"><?= lang('Mutu MKBK') ?></span>
+                            <i class="bx bx-customize me-2"></i><span class="font-menu"
+                                key="t-apps"><?= lang('Mutu MKBK') ?></span>
                             <div class="arrow-down"></div>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="topnav-pages">
 
-                            <a href="perdoman-mbkmk" class="dropdown-item" key="t-chat"><?= lang('Pedoman Penyelenggaraan') ?></a>
-                            <a href="monev" class="dropdown-item" key="t-chat"><?= lang('Monitoring dan Evaluasi') ?></a>
-                            <a href="standar-mbkm" class="dropdown-item" key="t-chat"><?= lang('Standar Sistem pengendalian MBKM') ?></a>
-                            <a href="pedoman-manajemen-resiko" class="dropdown-item" key="t-chat"><?= lang('Pedoman Manajemen Resiko MBKM') ?></a>
+                            <a href="https://drive.google.com/file/d/1s0e1NXlzWNcE40xJJltHCEAzqgLMcB4z/view?usp=sharing"
+                                target="_blank" class="dropdown-item"
+                                key="t-chat"><?= lang('Pedoman Penyelenggaraan') ?></a>
+                            <a href="https://drive.google.com/file/d/1zUztRut5tFw-W-p5Mvme_7C1qAvabDE6/view?usp=sharing"
+                                target="_blank" class="dropdown-item"
+                                key="t-chat"><?= lang('Monitoring dan Evaluasi') ?></a>
+                            <a href="https://drive.google.com/file/d/1tibPPJ0PaV5SSkQ35IAtQjlGiwQWJtQL/view?usp=sharing"
+                                target="_blank" class="dropdown-item"
+                                key="t-chat"><?= lang('Standar Sistem pengendalian MBKM') ?></a>
+                            <a href="https://drive.google.com/file/d/1s0tQN15_ufQ2rGWeO_r4qsGeYbyhQOx2/view?usp=sharing"
+                                target="_blank" class="dropdown-item"
+                                key="t-chat"><?= lang('Pedoman Manajemen Resiko MBKM') ?></a>
 
                         </div>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-pages" role="button">
-                            <i class="bx bx-customize me-2"></i><span key="t-apps" class="font-menu"><?= lang('Dokumen Universitas') ?></span>
-                            <div class="arrow-down"></div>
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="topnav-pages">
-
-                            <a href="renstra" class="dropdown-item" key="t-chat"><?= lang('RENSTRA') ?></a>
-                            <a href="standar-pendidikan-tinggi" class="dropdown-item" key="t-chat"><?= lang('Standar Pendidikan Tinggi') ?></a>
-
-
-                        </div>
-                    </li>
-
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-pages" role="button">
-                            <i class="bx bx-customize me-2"></i><span key="t-apps" class="font-menu"><?= lang('Dokumen Mutu') ?></span>
-                            <div class="arrow-down"></div>
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="topnav-pages">
-
-                            <a href="renstra" class="dropdown-item" key="t-chat"><?= lang('Formulir') ?></a>
-                            <a href="standar-pendidikan-tinggi" class="dropdown-item" key="t-chat"><?= lang('Kebijakan') ?></a>
-                            <a href="renstra" class="dropdown-item" key="t-chat"><?= lang('Manual') ?></a>
-                            <a href="renstra" class="dropdown-item" key="t-chat"><?= lang('Standar') ?></a>
-                            <a href="renstra" class="dropdown-item" key="t-chat"><?= lang('SOP') ?></a>
-
-
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-pages" role="button">
-                            <i class="bx bx-customize me-2"></i><span key="t-apps" class="font-menu"><?= lang('Akreditasi') ?></span>
+                            <i class="bx bx-customize me-2"></i><span key="t-apps"
+                                class="font-menu"><?= lang('Dokumen Universitas') ?></span>
                             <div class="arrow-down"></div>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="topnav-pages">
 
                             <a href="renstra" class="dropdown-item" key="t-chat"><?= lang('RENSTRA') ?></a>
-                            <a href="standar-pendidikan-tinggi" class="dropdown-item" key="t-chat"><?= lang('Standar Pendidikan Tinggi') ?></a>
+                            <a href="standar-pendidikan-tinggi" class="dropdown-item"
+                                key="t-chat"><?= lang('Standar Pendidikan Tinggi') ?></a>
+
+
+                        </div>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-pages" role="button">
+                            <i class="bx bx-customize me-2"></i><span key="t-apps"
+                                class="font-menu"><?= lang('Dokumen Mutu') ?></span>
+                            <div class="arrow-down"></div>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="topnav-pages">
+
+                            <a href="https://drive.google.com/file/d/1OsVjlfE6e0QIKv7fcgPXzRzeDXHTZ42T/view?usp=sharing"
+                                target='_blank' class="dropdown-item" key="t-chat"><?= lang('Formulir SPMI') ?></a>
+                            <a href="https://drive.google.com/file/d/1KhE6M3Z9gCbPfXXa5IsrCgA8tgbMZTb9/view?usp=sharing"
+                                target="_blank" class="dropdown-item" key="t-chat"><?= lang('Kebijakan SPMI') ?></a>
+                            <a href="https://drive.google.com/file/d/1sbyz8jOGrIxjeW7EjjSZ1ZfZJ6ENb2Gx/view?usp=sharing"
+                                target='_blank' class="dropdown-item" key="t-chat"><?= lang('Manual SPMI') ?></a>
+                            <a href="https://drive.google.com/file/d/14vQE2vg4Ra7XD5WKQL0T_GOOquuEYWhJ/view?usp=sharing"
+                                target="_blank" class="dropdown-item" key="t-chat"><?= lang('Standar SPMI') ?></a>
+                            <a href="https://drive.google.com/file/d/1Y2w6iJiLLxISw212v3d0wzVQvw6k-kQx/view?usp=sharing"
+                                target="_blank" class="dropdown-item" key="t-chat"><?= lang('SOP SPMI') ?></a>
+
+
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-pages" role="button">
+                            <i class="bx bx-customize me-2"></i><span key="t-apps"
+                                class="font-menu"><?= lang('Akreditasi') ?></span>
+                            <div class="arrow-down"></div>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="topnav-pages">
+
+                            <a href="https://drive.google.com/drive/folders/17LZ5k3xRmuhlZwA9R9SwU67aJkm9uZiV?usp=sharing"
+                                target="_blank" class="dropdown-item" key="t-chat"><?= lang('Universitas') ?></a>
+                            <a href="https://drive.google.com/drive/folders/1TrgvaQ05eQ_DWvkXxUjpATbsFsJRy-_w?usp=sharing"
+                                target="_blank" class="dropdown-item" key="t-chat"><?= lang('FEIS') ?></a>
+                            <a href="https://drive.google.com/drive/folders/1TpHB38HYwVBVsOCR9F6qzPBDTSx7REV5?usp=sharing"
+                                target="_blank" class="dropdown-item" key="t-chat"><?= lang('TEKNIK') ?></a>
+                            <a href="https://drive.google.com/drive/folders/1TtsG75IZNdaUNUecThz9hDL995n44O4f?usp=sharing"
+                                target="_blank" class="dropdown-item" key="t-chat"><?= lang('PASCASARJANA') ?></a>
+                            <a href="https://drive.google.com/drive/folders/1MPmTGUDf97FE0EUMp6JvwOBVqNr4FSJ7?usp=sharing"
+                                target="_blank" class="dropdown-item"
+                                key="t-chat"><?= lang('Instrumen Akreditasi') ?></a>
+                            <!-- <a href="https://drive.google.com/drive/folders/1TtsG75IZNdaUNUecThz9hDL995n44O4f?usp=sharing" target="_blank" class="dropdown-item" key="t-chat"><?= lang('Instrumen Akreditasi Program Studi') ?></a> -->
 
 
                         </div>
@@ -422,18 +467,24 @@
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-pages" role="button">
-                            <i class="bx bx-customize me-2"></i><span key="t-apps" class="font-menu"><?= lang('Tentang Kami') ?></span>
+                            <i class="bx bx-customize me-2"></i><span key="t-apps"
+                                class="font-menu"><?= lang('Tentang Kami') ?></span>
                             <div class="arrow-down"></div>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="topnav-pages">
 
-                            <a href="profil-pejabat" class="dropdown-item" key="t-chat"><?= lang('Profil Pejabat') ?></a>
-                            <a href="profil-tendik" class="dropdown-item" key="t-chat"><?= lang('Profil Tenaga Kependidikan') ?></a>
-                            <a href="sejarah-lp2mi" class="dropdown-item" key="t-chat"><?= lang('Sejarah Singkat LP2MI') ?></a>
-                            <a href="tugas-pokok" class="dropdown-item" key="t-chat"><?= lang('Tugas Pokok dan Fungsi') ?></a>
-                            <a href="struktur-organisasi" class="dropdown-item" key="t-chat"><?= lang('Struktur Organisasi') ?></a>
+                            <a href="profil-pejabat" class="dropdown-item"
+                                key="t-chat"><?= lang('Profil Pejabat') ?></a>
+                            <a href="profil-tendik" class="dropdown-item"
+                                key="t-chat"><?= lang('Profil Tenaga Kependidikan') ?></a>
+                            <a href="sejarah-lp2mi" class="dropdown-item"
+                                key="t-chat"><?= lang('Sejarah Singkat LP2MI') ?></a>
+                            <a href="tugas-pokok" class="dropdown-item"
+                                key="t-chat"><?= lang('Tugas Pokok dan Fungsi') ?></a>
+                            <a href="struktur-organisasi" class="dropdown-item"
+                                key="t-chat"><?= lang('Struktur Organisasi') ?></a>
                             <a href="visi-dan-misi" class="dropdown-item" key="t-chat"><?= lang('Visi dan Misi') ?></a>
-                            <a href="kebijakan-mutu" class="dropdown-item" key="t-chat"><?= lang('Kebijakan Mutu') ?></a>
+
                         </div>
                     </li>
 

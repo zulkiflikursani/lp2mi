@@ -24,10 +24,10 @@ class Front extends BaseController
 		$postinganModel = new PostinganModel();
 
 		if ($search == '') {
-			$paginateData = $postinganModel->paginate(2);
+			$paginateData = $postinganModel->orderBy('tgl_posting', 'desc')->paginate(2);
 		} else {
 			$paginateData = $postinganModel->select('*')
-				->orLike('judul', $search)
+				->orLike('judul', $search)->orderBy('tgl_posting', 'desc')
 				->paginate(2);
 		}
 
@@ -115,8 +115,100 @@ class Front extends BaseController
 		];
 		return view('Front/kebijakan-mutu', $data);
 	}
+	public function peraturan_yayasan()
+	{
+		$docModel = new DocModel();
+		$datadoc = $docModel->where("kat_doc", 3)->findAll();
+
+		$data = [
+			'title_meta' => view('partials/z-title-meta', ['title' => 'Tentang Kami']),
+			'page_title' => view('partials/z-page-title', ['title' => 'Kebijakan Mutu', 'pagetitle' => 'Tentang Kami']),
+			'data_doc' => $datadoc
 
 
+		];
+		return view('Front/peraturan-yayasan', $data);
+	}
+		public function peraturan_menteri()
+	{
+		$docModel = new DocModel();
+		$datadoc = $docModel->where("kat_doc", 9)->findAll();
+
+		$data = [
+			'title_meta' => view('partials/z-title-meta', ['title' => 'Tentang Kami']),
+			'page_title' => view('partials/z-page-title', ['title' => 'Kebijakan Mutu', 'pagetitle' => 'Tentang Kami']),
+			'data_doc' => $datadoc
+
+
+		];
+		return view('Front/peraturan-menteri', $data);
+	}
+	public function peraturan_universitas()
+	{
+		$docModel = new DocModel();
+		$datadoc = $docModel->where("kat_doc", 5)->findAll();
+
+		$data = [
+			'title_meta' => view('partials/z-title-meta', ['title' => 'Tentang Kami']),
+			'page_title' => view('partials/z-page-title', ['title' => 'Kebijakan Mutu', 'pagetitle' => 'Tentang Kami']),
+			'data_doc' => $datadoc
+
+
+		];
+		return view('Front/peraturan-universitas', $data);
+	}
+
+	public function peraturan_rektor()
+	{
+		$docModel = new DocModel();
+		$datadoc = $docModel->where("kat_doc", 4)->findAll();
+
+		$data = [
+			'title_meta' => view('partials/z-title-meta', ['title' => 'Tentang Kami']),
+			'page_title' => view('partials/z-page-title', ['title' => 'Kebijakan Mutu', 'pagetitle' => 'Tentang Kami']),
+			'data_doc' => $datadoc
+
+
+		];
+		return view('Front/peraturan-rektor', $data);
+	}
+	public function renstra()
+	{
+		$docModel = new DocModel();
+		$datadoc = $docModel->where("kat_doc", 6)->findAll();
+
+		$data = [
+			'title_meta' => view('partials/z-title-meta', ['title' => 'Tentang Kami']),
+			'page_title' => view('partials/z-page-title', ['title' => 'Rencana Strategis', 'pagetitle' => 'Tentang Kami']),
+			'data_doc' => $datadoc
+
+
+		];
+		return view('Front/renstra', $data);
+	}
+	public function standar_pendidikan_tinggi()
+	{
+		$docModel = new DocModel();
+		$datadoc = $docModel->where("kat_doc", 7)->findAll();
+
+		$data = [
+			'title_meta' => view('partials/z-title-meta', ['title' => 'Tentang Kami']),
+			'page_title' => view('partials/z-page-title', ['title' => 'Kebijakan Mutu', 'pagetitle' => 'Tentang Kami']),
+			'data_doc' => $datadoc
+
+
+		];
+		return view('Front/standar-pendidikan-tinggi', $data);
+	}
+	public function readfolder()
+	{
+		$data = [
+			'title_meta' => view('partials/z-title-meta', ['title' => 'Tentang Kami']),
+			'page_title' => view('partials/z-page-title', ['title' => 'Kebijakan Mutu', 'pagetitle' => 'Tentang Kami']),
+
+		];
+		return view('Front/readfolder', $data);
+	}
 
 	public function blogdetail($id)
 	{

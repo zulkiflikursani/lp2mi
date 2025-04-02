@@ -7,22 +7,22 @@
 
     <?= $this->include('partials/z-head-css') ?>
     <style type="text/css">
-        a {
-            padding-left: 5px;
-            padding-right: 5px;
-            margin-left: 5px;
-            margin-right: 5px;
-        }
+    a {
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 
-        .pagination li.active {
-            background: deepskyblue;
-            color: white;
-        }
+    .pagination li.active {
+        background: deepskyblue;
+        color: white;
+    }
 
-        .pagination li.active a {
-            color: white;
-            text-decoration: none;
-        }
+    .pagination li.active a {
+        color: white;
+        text-decoration: none;
+    }
     </style>
 
 </head>
@@ -53,9 +53,10 @@
                                 </div>
                             </div>
                             <div class="card bg-opacity-50 px-1 py-1 " style="background-color: #FFF400;">
-                                <marquee width="100%" height="40" class="text-bold font-size-20"><span style='font-weight: bold;'> Breaking News
+                                <marquee width="100%" height="40" class="text-bold font-size-20"><span
+                                        style='font-weight: bold;'> Breaking News
                                         :</span>
-                                    Text berjalan syalalalalllalal </marquee>
+                                </marquee>
                             </div>
 
 
@@ -99,42 +100,48 @@
                                                         <?php
                                                         // $data_postingan = json_decode($data_postingan);
                                                         foreach ($data_postingan as $riana) {
+                                                            $img = "assets/images/small/img-" . $riana['id'] . ".jpg";
                                                         ?>
-                                                            <div>
-                                                                <!-- title blog -->
-                                                                <h5><a href="blogdetail?id=<?= $riana['id']; ?>" class="text-dark"><?= $riana['judul'] ?></a></h5>
-                                                                <!-- tanggal posting -->
-                                                                <p class="text-muted"><?= $riana['tgl_posting'] ?></p>
+                                                        <div>
+                                                            <!-- title blog -->
+                                                            <h5><a href="blogdetail?id=<?= $riana['id']; ?>"
+                                                                    class="text-dark"><?= $riana['judul'] ?></a></h5>
+                                                            <!-- tanggal posting -->
+                                                            <p class="text-muted"><?= $riana['tgl_posting'] ?></p>
 
-                                                                <!-- gambat-postingan -->
-                                                                <div class="position-relative mb-3">
-                                                                    <img src="assets/images/small/img-2.jpg" alt="" class="img-thumbnail">
-                                                                </div>
-
-                                                                <ul class="list-inline">
-                                                                    <li class="list-inline-item me-3">
-                                                                        <a href="#" class="text-muted">
-                                                                            <i class="bx bx-purchase-tag-alt align-middle text-muted me-1"></i>
-                                                                            Project
-                                                                        </a>
-                                                                    </li>
-                                                                    <li class="list-inline-item me-3">
-                                                                        <a href="#" class="text-muted">
-                                                                            <i class="bx bx-comment-dots align-middle text-muted me-1"></i>
-                                                                            0 Comments
-                                                                        </a>
-                                                                    </li>
-                                                                </ul>
-                                                                <!-- descripsi singkat postingan -->
-                                                                <p><?= substr($riana['deskripsi'], 0, 200) . "..."   ?></p>
-
-                                                                <!-- readmore for detail -->
-                                                                <div>
-                                                                    <a href="<?= base_url() . "/blogdetail/" . $riana['id'] ?>" class="text-primary">Read more <i class="mdi mdi-arrow-right"></i></a>
-                                                                </div>
+                                                            <!-- gambat-postingan -->
+                                                            <div class="position-relative mb-3">
+                                                                <img src="<?= $img ?>" alt="" class="img-thumbnail">
                                                             </div>
 
-                                                            <hr class="my-5">
+                                                            <ul class="list-inline">
+                                                                <li class="list-inline-item me-3">
+                                                                    <a href="#" class="text-muted">
+                                                                        <i
+                                                                            class="bx bx-purchase-tag-alt align-middle text-muted me-1"></i>
+                                                                        Project
+                                                                    </a>
+                                                                </li>
+                                                                <li class="list-inline-item me-3">
+                                                                    <a href="#" class="text-muted">
+                                                                        <i
+                                                                            class="bx bx-comment-dots align-middle text-muted me-1"></i>
+                                                                        0 Comments
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                            <!-- descripsi singkat postingan -->
+                                                            <p><?= substr($riana['deskripsi'], 0, 200) . "..."   ?></p>
+
+                                                            <!-- readmore for detail -->
+                                                            <div>
+                                                                <a href="<?= base_url() . "/blogdetail/" . $riana['id'] ?>"
+                                                                    class="text-primary">Read more <i
+                                                                        class="mdi mdi-arrow-right"></i></a>
+                                                            </div>
+                                                        </div>
+
+                                                        <hr class="my-5">
 
                                                         <?php
                                                         }
@@ -147,11 +154,12 @@
 
 
                                                         <div class="text-center">
-                                                            <ul class="pagination justify-content-center pagination-rounded">
+                                                            <ul
+                                                                class="pagination justify-content-center pagination-rounded">
                                                                 <?php if ($pager) : ?>
-                                                                    <div style='margin-top: 10px;'>
-                                                                        <?= $pager->links() ?>
-                                                                    </div>
+                                                                <div style='margin-top: 10px;'>
+                                                                    <?= $pager->links() ?>
+                                                                </div>
                                                                 <?php endif ?>
                                                                 <!-- <li class="page-item disabled">
                                                 <a href="#" class="page-link"><i class="mdi mdi-chevron-left"></i></a>
@@ -299,7 +307,8 @@
                                     <div class="search-box">
                                         <p class="text-muted">Search</p>
                                         <div class="position-relative">
-                                            <input type="text" class="form-control rounded bg-light border-light" placeholder="Search...">
+                                            <input type="text" class="form-control rounded bg-light border-light"
+                                                placeholder="Search...">
                                             <i class="mdi mdi-magnify search-icon"></i>
                                         </div>
                                     </div>
@@ -314,9 +323,11 @@
                                             if (isset($datakat)) {
                                                 foreach ($datakat as $riana) {
                                             ?>
-                                                    <li><a href="#" class="text-muted py-2 d-block"><i class="mdi mdi-chevron-right me-1"></i>
-                                                            <?= $riana->categori ?><span class="badge badge-soft-success rounded-pill ms-1 float-end font-size-12"><?= $riana->jumlah; ?></span></a>
-                                                    </li>
+                                            <li><a href="#" class="text-muted py-2 d-block"><i
+                                                        class="mdi mdi-chevron-right me-1"></i>
+                                                    <?= $riana->categori ?><span
+                                                        class="badge badge-soft-success rounded-pill ms-1 float-end font-size-12"><?= $riana->jumlah; ?></span></a>
+                                            </li>
 
                                             <?php
                                                 };
@@ -339,9 +350,11 @@
                                             if (isset($datapertahun)) {
                                                 foreach ($datapertahun as $riana) {
                                             ?>
-                                                    <li><a href="#" class="text-muted py-2 d-block"><i class="mdi mdi-chevron-right me-1"></i> <?= $riana->tahun ?>
-                                                            <span class="badge badge-soft-success rounded-pill float-end ms-1 font-size-12"><?= $riana->jumlah ?></span></a>
-                                                    </li>
+                                            <li><a href="#" class="text-muted py-2 d-block"><i
+                                                        class="mdi mdi-chevron-right me-1"></i> <?= $riana->tahun ?>
+                                                    <span
+                                                        class="badge badge-soft-success rounded-pill float-end ms-1 font-size-12"><?= $riana->jumlah ?></span></a>
+                                            </li>
 
                                             <?php
                                                 }

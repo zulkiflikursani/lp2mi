@@ -58,6 +58,14 @@ $routes->get('tugas-pokok', 'Front::tugas_pokok');
 $routes->get('struktur-organisasi', 'Front::struktur_organisasi');
 $routes->get('visi-dan-misi', 'Front::visi_dan_misi');
 $routes->get('kebijakan-mutu', 'Front::kebijakan_mutu');
+$routes->get('peraturan-yayasan', 'Front::peraturan_yayasan');
+$routes->get('peraturan-universitas', 'Front::peraturan_universitas');
+$routes->get('peraturan-rektor', 'Front::peraturan_rektor');
+$routes->get('peraturan-menteri', 'Front::peraturan_menteri');
+
+$routes->get('renstra', 'Front::renstra');
+$routes->get('standar-pendidikan-tinggi', 'Front::standar_pendidikan_tinggi');
+$routes->get('readfolder', 'Front::readfolder');
 
 
 //Multi-language functionality 

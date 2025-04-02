@@ -3,6 +3,7 @@
 <?php
 if (isset($data_postingan)) {
     foreach ($data_postingan as $riana) {
+        $id = $riana->id;
         $judul = $riana->judul;
         $deskripsi = $riana->deskripsi;
         $tgl_posting = $riana->tgl_posting;
@@ -84,7 +85,7 @@ if (isset($data_postingan)) {
                                                     <hr>
 
                                                     <div class="my-5">
-                                                        <img src="../assets/images/small/img-2.jpg" alt=""
+                                                        <img src="../assets/images/small/img-<?=$id?>.jpg" alt=""
                                                             class="img-thumbnail mx-auto d-block">
                                                     </div>
 
